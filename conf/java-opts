@@ -1,0 +1,1 @@
+-verbose:gc -XX:-PrintGCDetails -XX:+PrintGCTimeStamps
