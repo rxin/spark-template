@@ -1,0 +1,33 @@
+
+Spark project template
+
+You will need the spark-repl jar that is not included in this repo. To generate
+the jar, do:
+
+    $ git clone git@github.com:mesos/spark.git
+    $ cd spark
+    $ sbt/sbt assembly
+
+Copy the spark-repl jar to lib directory.
+
+
+Run the example with:
+
+    $ ./run examples.SparkPi local 10
+
+
+I've also included the sbt eclipse plugin with this. You can generate Eclipse
+project files with
+
+    $ sbt/sbt eclipse
+
+Then you can debug your project in Eclipse.
+
+
+Have fun programming Spark!
+
+
+Reynold Xin
+rxin [at] cs.berkeley.edu
+
+
